@@ -28,13 +28,13 @@ const MainScreen = () => {
                   </Pressable>
                     
                   <Pressable>
-                      <View style={styles.btn1_outer}>
+                      <View style={styles.btn2_outer}>
                           <Text style={styles.bg2_button}>%</Text>
                       </View>
                   </Pressable>
                     
                   <Pressable>
-                      <View style={styles.btn1_outer}>
+                      <View style={styles.btn2_outer}>
                           <Text style={styles.bg2_button}>/</Text>
                       </View>
                   </Pressable>
@@ -62,7 +62,7 @@ const MainScreen = () => {
                   </Pressable>
                     
                   <Pressable>
-                      <View style={styles.btn1_outer}>
+                      <View style={styles.btn2_outer}>
                           <Text style={styles.bg2_button}>*</Text>
                       </View>
                   </Pressable>
@@ -74,25 +74,25 @@ const MainScreen = () => {
                   
                   <Pressable>
                       <View style={styles.btn_outer}>
-                          <Text style={styles.bg_button}>7</Text>
+                          <Text style={styles.bg_button}>4</Text>
                       </View>
                   </Pressable>
                     
                   <Pressable>
                       <View style={styles.btn_outer}>
-                          <Text style={styles.bg_button}>8</Text>
+                          <Text style={styles.bg_button}>5</Text>
                       </View>
                   </Pressable>
                     
                   <Pressable>
                       <View style={styles.btn_outer}>
-                          <Text style={styles.bg_button}>9</Text>
+                          <Text style={styles.bg_button}>6</Text>
                       </View>
                   </Pressable>
                     
                   <Pressable>
-                      <View style={styles.btn1_outer}>
-                          <Text style={styles.bg2_button}>*</Text>
+                      <View style={styles.btn2_outer}>
+                          <Text style={styles.bg2_button}>-</Text>
                       </View>
                   </Pressable>
                   
@@ -103,25 +103,25 @@ const MainScreen = () => {
                   
                   <Pressable>
                       <View style={styles.btn_outer}>
-                          <Text style={styles.bg_button}>7</Text>
+                          <Text style={styles.bg_button}>1</Text>
                       </View>
                   </Pressable>
                     
                   <Pressable>
                       <View style={styles.btn_outer}>
-                          <Text style={styles.bg_button}>8</Text>
+                          <Text style={styles.bg_button}>2</Text>
                       </View>
                   </Pressable>
                     
                   <Pressable>
                       <View style={styles.btn_outer}>
-                          <Text style={styles.bg_button}>9</Text>
+                          <Text style={styles.bg_button}>3</Text>
                       </View>
                   </Pressable>
                     
                   <Pressable>
-                      <View style={styles.btn1_outer}>
-                          <Text style={styles.bg2_button}>*</Text>
+                      <View style={styles.btn2_outer}>
+                          <Text style={styles.bg2_button}>+</Text>
                       </View>
                   </Pressable>
                   
@@ -132,25 +132,25 @@ const MainScreen = () => {
                   
                   <Pressable>
                       <View style={styles.btn_outer}>
-                          <Text style={styles.bg_button}>7</Text>
+                          <Text style={styles.bg_button}>0</Text>
                       </View>
                   </Pressable>
                     
                   <Pressable>
                       <View style={styles.btn_outer}>
-                          <Text style={styles.bg_button}>8</Text>
-                      </View>
-                  </Pressable>
-                    
-                  <Pressable>
-                      <View style={styles.btn_outer}>
-                          <Text style={styles.bg_button}>9</Text>
+                          <Text style={styles.bg_button}>.</Text>
                       </View>
                   </Pressable>
                     
                   <Pressable>
                       <View style={styles.btn1_outer}>
-                          <Text style={styles.bg2_button}>*</Text>
+                          <Text style={styles.bg1_button}>X</Text>
+                      </View>
+                  </Pressable>
+                    
+                  <Pressable>
+                      <View style={styles.btn2_outer}>
+                          <Text style={styles.bg2_button}>=</Text>
                       </View>
                   </Pressable>
                   
