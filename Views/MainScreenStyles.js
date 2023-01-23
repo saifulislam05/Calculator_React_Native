@@ -15,15 +15,17 @@ module.exports = {
     borderRadius: 10,
     display: "flex",
     padding: 10,
-    marginTop: 10,
+    marginTop: 20,
+    flexDirection:'column-reverse',
   },
   main_display_text: {
-    fontSize: 50,
+    fontSize: 40,
     textAlign: "right",
+    height:'auto'
   },
   main_display_keypad: {
     width: "100%",
-    height: "70%",
+    height: "67%",
     display: "flex",
   },
   main_display_keypad_row: {
@@ -36,8 +38,8 @@ module.exports = {
     padding: 10,
   },
   btn_outer: {
-    width: 90,
-    height: 90,
+    width: 80,
+    height: 80,
     backgroundColor: "white",
     elevation: 10,
     overflow: "hidden",
@@ -51,8 +53,8 @@ module.exports = {
     fontSize: 30,
   },
   btn1_outer: {
-    width: 90,
-    height: 90,
+    width: 80,
+    height: 80,
     backgroundColor: "orange",
     elevation: 10,
     overflow: "hidden",
@@ -67,8 +69,8 @@ module.exports = {
     fontWeight: "bold",
   },
   btn2_outer: {
-    width: 90,
-    height: 90,
+    width: 80,
+    height: 80,
     backgroundColor: "grey",
     elevation: 10,
     overflow: "hidden",

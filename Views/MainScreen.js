@@ -7,7 +7,7 @@ const MainScreen = () => {
       <View style={styles.main_screen}>
           <ScrollView style={styles.main_display}>
               <Text style={styles.main_display_text}>
-                  123
+                  4565446
               </Text>
           </ScrollView>
 
