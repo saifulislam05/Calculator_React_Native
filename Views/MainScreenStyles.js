@@ -80,7 +80,7 @@ module.exports = {
   },
   bg2_button: {
     color: "white",
-    fontSize: 30,
+    fontSize: 40,
     fontWeight: "bold",
   },
 };
