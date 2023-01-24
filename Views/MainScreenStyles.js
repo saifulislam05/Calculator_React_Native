@@ -19,7 +19,7 @@ module.exports = {
     flexDirection:'column-reverse',
   },
   main_display_text: {
-    fontSize: 40,
+    fontSize: 50,
     textAlign: "right",
     height:'auto'
   },
