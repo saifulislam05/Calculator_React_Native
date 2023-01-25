@@ -21,7 +21,7 @@ const [bracketOpen,setBracketOpen]=useState(false)
                       value.slice(-1) == "+" ||
                       value.slice(-1) == "-" ||
                       value.slice(-1) == "*" ||
-                      value.slice(-1) == "÷" ||
+                      value.slice(-1) == "/" ||
                       value.slice(-1) == "%" ||
                       value.slice(-1) == "."
                     ) {
@@ -54,7 +54,7 @@ const [bracketOpen,setBracketOpen]=useState(false)
               value.slice(-1) == "+" ||
               value.slice(-1) == "-" ||
               value.slice(-1) == "*" ||
-              value.slice(-1) == "÷" ||
+              value.slice(-1) == "/" ||
               value.slice(-1) == "%" ||
               value.slice(-1) == "."
             ) {
@@ -81,7 +81,7 @@ const [bracketOpen,setBracketOpen]=useState(false)
               value.slice(-1) == "+" ||
               value.slice(-1) == "-" ||
               value.slice(-1) == "*" ||
-              value.slice(-1) == "÷" ||
+              value.slice(-1) == "/" ||
               value.slice(-1) == "%" ||
               value.slice(-1) == "."
             ) {
@@ -124,9 +124,9 @@ const [bracketOpen,setBracketOpen]=useState(false)
             </View>
           </Pressable>
 
-          <Pressable onPress={() => handlePress("÷")}>
+          <Pressable onPress={() => handlePress("/")}>
             <View style={styles.btn2_outer}>
-              <Text style={styles.bg2_button}>÷</Text>
+              <Text style={styles.bg2_button}>/</Text>
             </View>
           </Pressable>
         </View>
